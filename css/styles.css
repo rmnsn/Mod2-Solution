@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 350%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.allcols {
+  position: relative;
+  column-count: 3;
+  max-width: 100%;
+  padding: 0;
+}
+
+.col1 {
+  background-color: rgb(192, 228, 224);
+  text-align: justify;
+  position: relative;
+  top: -8px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin: 2% 0% 10% 7%;
+  padding: 0;
+}
+
+.col2 {
+  background-color: rgb(192, 228, 224);
+  text-align: justify;
+  position: relative;
+  top: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+  margin: 15% 0 5% 7%;
+  padding: 0;
+}
+
+.col3 {
+  background-color: rgb(192, 228, 224);
+  text-align: justify;
+  position: relative;
+  top: 0px;
+  border-style: solid;
+  margin: 15% 7% 10% 0;
+  padding: 0;
+}
+
+.col1 p {
+  padding: 20px 10px 0 10px;
+}
+
+.col2 p {
+  padding: 20px 10px 0 10px;
+}
+
+.col3 p {
+  padding: 20px 10px 0 10px;
+}
+
+.title1 {
+  text-align: center;
+  margin-top: -3px;
+  margin-right: -2px;
+  float: right;
+  width: 100px;
+  border: 3px solid black;
+  background-color: rgb(224, 19, 19);
+  color: white;
+}
+
+.title2 {
+  text-align: center;
+  margin-top: -2px;
+  margin-right: -2px;
+  float: right;
+  width: 100px;
+  border: 3px solid black;
+  background-color: rgb(115, 19, 224);
+  color: black;
+}
+
+.title3 {
+  text-align: center;
+  margin-top: -2px;
+  margin-right: -2px;
+  float: right;
+  width: 100px;
+  border: 3px solid black;
+  background-color: rgb(76, 228, 15);
+  color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .allcols {
+    column-count: auto;
+  }
+
+  .col1 {
+    top: 0px;
+    display: inline-block;
+    max-width: 40%;
+    margin: 10px 40px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    left: 50px;
+  }
+
+  .col2 {
+    display: inline-block;
+    max-width: 40%;
+    margin: 10px 10px 10px 40px;
+    padding: 10px;
+    float: right;
+    right: 50px;
+  }
+
+  .col3 {
+    max-width: 100%;
+    margin: 40px 60px 0 60px;
+    height: 150px;
+  }
+
+  .title1 {
+    margin-top: -13px;
+    margin-right: -13px;
+  }
+
+  .title2 {
+    margin-top: -13px;
+    margin-right: -13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .allcols {
+    display: inline;
+  }
+
+  .col1 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .col2 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .col3 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .title1 {
+    margin-top: -13px;
+    margin-right: -13px;
+  }
+
+  .title2 {
+    margin-top: -13px;
+    margin-right: -13px;
+  }
+
+  .title3 {
+    margin-top: -13px;
+    margin-right: -13px;
+  }
+}
